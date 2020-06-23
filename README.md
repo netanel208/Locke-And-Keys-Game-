@@ -74,13 +74,13 @@ Picking  objects will be done by  mouse clicking.
 - [HealthBarPlayer](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/HealthBarPlayer.cs) - Represents the Health of the player  in the game
 - [PickingKey](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/PickingKey.cs) - This behavior is make the player pick up key from the floor
 - [PlayerKeys](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/PlayerKeys.cs) - The collection of keys the player has already encountered
-- [PlayerController](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/PlayerController.cs) -
-- [Fist](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/Fist.cs) -
-- [Billboard ](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/Billboard.cs) -
+- [PlayerController](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/PlayerController.cs) - Represents player attacking and his damage status when injured by the enemies and his death
+- [Fist](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/Fist.cs) - Represents the Fist of the player with it he hits the enemy
+- [Billboard ](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/Billboard.cs) - Makes the object always parallel to the camera
 
 ### Enemies:
-- [Enemy](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Enemies/Enemy.cs) -
-- [EnemyClaws](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Enemies/EnemyClaws.cs) -
+- [Enemy](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Enemies/Enemy.cs) - Represents enemy situations in the game such as standing, walking, attacking and his damage status when injured by the player and his death.
+- [EnemyClaws](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Enemies/EnemyClaws.cs) - Represents the claws with which the enemy fights
 
 ### Grandfather:
 - [Grandfather](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Grandfather/Grandfather.cs) -
@@ -136,7 +136,7 @@ Picking  objects will be done by  mouse clicking.
 - [DoorOnTrigger](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/DoorOnTrigger.cs) -
 
 ### Target:
-- [Target](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Target.cs) -
+- [Target](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Target.cs) - Represents the location the enemy will go to when his Health Bar will be in a certain number
 
 ### EnableObject:
 - [enableObject](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/enableObject.cs) -
@@ -153,7 +153,7 @@ Mother
 
 Mirror
 
-Player
+Player 
 
 Enemy
 
