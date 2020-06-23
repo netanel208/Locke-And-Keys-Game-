@@ -63,81 +63,121 @@ The player has an option to move forward, backward, right, left. The moving is d
 - `down key` - moves the player backward.
 - `right key` - moves the player right.
 - `left key` - moves the player left.
+- `space key`- attack enemies
 
 Picking  objects will be done by  mouse clicking.
 
 
 ## Scripts
 ### Player:
-- [Mover](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Player/Mover.cs) - Moving the player
-- [HealthBarPlayer](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Player/HealthBarPlayer.cs) - Represents the Health of the player  in the game
-- [PickingKey](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Player/PickingKey.cs) - This behavior is make the player pick up key from the floor
-- [PlayerKeys](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Player/PlayerKeys.cs) - The collection of keys the player has already encountered
+- [Mover](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/Mover.cs) - Moving the player
+- [HealthBarPlayer](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/HealthBarPlayer.cs) - Represents the Health of the player  in the game
+- [PickingKey](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/PickingKey.cs) - This behavior is make the player pick up key from the floor
+- [PlayerKeys](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/PlayerKeys.cs) - The collection of keys the player has already encountered
+- [PlayerController](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/PlayerController.cs) -
+- [Fist](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/Fist.cs) -
+- [Billboard ](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Player/Billboard.cs) -
+
+### Enemies:
+- [Enemy](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Enemies/Enemy.cs) -
+- [EnemyClaws](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Enemies/EnemyClaws.cs) -
+
+### Grandfather:
+- [Grandfather](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Grandfather/Grandfather.cs) -
+
+### Mother:
+- [Follow](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Mother/Follow.cs) -
 
 ### Keys:
-- [KeyProperties](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/keys/KeyProperties.cs) - This class contains all key properties as: holes it open, audio source, current hole that opened. 
-- [PickingUp](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/keys/PickingUp.cs) - This class allows the key behavior to be in the player's hand when the player clicks it with the mouse. 
+- [KeyProperties](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/keys/KeyProperties.cs) - This class contains all key properties as: holes it open, audio source, current hole that opened. 
+- [PickingUp](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/keys/PickingUp.cs) - This class allows the key behavior to be in the player's hand when the player clicks it with the mouse. 
 
 ### Holes:
-- [HoleActions](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Holes/HoleActions.cs) - This class allow specify which key the hole belongs to and which key animation will be triggered when you click the hole with the mouse.
+- [HoleActions](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Holes/HoleActions.cs) - This class allow specify which key the hole belongs to and which key animation will be triggered when you click the hole with the mouse.
 
 ### Key Cards:
-- [Card](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/KeyCards/Card.cs) - Create a Card object.
-- [CardDisplay](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/KeyCards/CardDisplay.cs) - Display the card on the screen with all its details and close
+- [Card](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/KeyCards/Card.cs) - Create a Card object.
+- [CardDisplay](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/KeyCards/CardDisplay.cs) - Display the card on the screen with all its details and close
 
 ### Levels:
-- [OpenGame](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Levels/OpenGame.cs) - Represents the first scene in the game(just show the house from outside).
-- [Level1](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Levels/Level1.cs) - Represents the first scene(level) at KeyHouse, the level1 contains some states that the player may be during the level.
+- [OpenGame](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/OpenGame.cs) - Represents the first scene in the game(just show the house from outside).
+- [Level1](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/Level1.cs) - Represents the first scene(level) at KeyHouse, the level1 contains some states that the player may be during the level.
+- [Level2](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/Level2.cs) -
+- [Level3](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/Level3.cs) -
+- [Level4](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/Level4.cs) -
 
 
 ### Menu: (asset)
-- [MenuController](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/MenuScripts/MenuController.cs)
-- [init_LoadPreferences](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/MenuScripts/Init_LoadPreferences.cs)
+- [MenuController](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Menu/MenuController.cs)
+- [init_LoadPreferences](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Menu/Init_LoadPreferences.cs)
 
 ### Mirror:
-- [BreakMirror](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Mirrors/BreakMirror.cs) - This behavior causes the mirror to break and leave fragments on the floor.
-
-
-### Health Bar:
-- [HealthBar](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/HealthBar.cs)
+- [BreakMirror](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Mirrors/BreakMirror.cs) - This behavior causes the mirror to break and leave fragments on the floor.
+- [ImportanceMirror](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Mirrors/ImportanceMirror.cs) -
 
 
 ### Dialogue:
-- [Dialogue](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Dialogue/Dialogue.cs
-) - Represents the content of the dialog that will display
-- [DialogueManager](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Dialogue/DialogueManager.cs
-) - Responsible for opening and closing the dialogue and displaying the details on the screen
-- [DialogueTrigger](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/Dialogue/DialogueTrigger.cs
-) - Responsible for starting the dialogue
+- [Dialogue](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Dialogue/Dialogue.cs) - Represents the content of the dialog that will display
+- [DialogueManager](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Dialogue/DialogueManager.cs) - Responsible for opening and closing the dialogue and displaying the details on the screen
+- [DialogueTrigger](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Dialogue/DialogueTrigger.cs) - Responsible for starting the dialogue
 
+
+### Health Bar:
+- [HealthBar](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/HealthBar.cs)
 
 ### Button:
-- [DisableButton](https://github.com/OdeliaHochman/gamedev-Locke-and-Key-Game/blob/master/scripts/DisableButton.cs) - Deletes the button when pressed.
+- [DisableButton](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/DisableButton.cs) - Deletes the button when pressed.
+
+### Chest:
+- [Chest](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Chest.cs) -
+
+### Door:
+- [Door](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Door.cs) -
+- [DoorOnTrigger](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/DoorOnTrigger.cs) -
+
+### Target:
+- [Target](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Target.cs) -
+
+### EnableObject:
+- [enableObject](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/enableObject.cs) -
+
 
 
 ## Animation:
 
-### Scene “1” : 
-
 Camera
-
-### Scene “2” :
 
 Key
 
-Mother - enter to the mirror after the player find the Mirror-key.
+Mother 
 
 Mirror
 
 Player
 
+Enemy
+
 Dialogue
+
+Chest
+
+Door
+
+
 
 
 ## Audio:
-whispering sounds for magical keys:
+
+* [whispering sounds for magical keys](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/Audio/Dead%20Space%20Audio%20-%20PA%20Whispers.mp3):
+
 We created Audio source for a key object and configured it as follows: Being played in loops, played in a three-dimensional area.
 we have defined that as the player moves away from the area, the sound becomes louder and as the noise approaches exponentially.
+
+* [mirror-room-sound](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/Audio/mirror-room-sound.wav)
+
+* [tick-tack](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/Audio/tick-tack.wav) - the audio of the clock in the mirror maze scene
+
+* [Cemetery](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/Audio/cemetery%20(1).mp3) - plays in the cemetery scene
 
 
 ## Images
