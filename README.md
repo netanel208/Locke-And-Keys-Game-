@@ -83,10 +83,10 @@ Picking  objects will be done by  mouse clicking.
 - [EnemyClaws](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Enemies/EnemyClaws.cs) - Represents the claws with which the enemy fights
 
 ### Grandfather:
-- [Grandfather](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Grandfather/Grandfather.cs) -
+- [Grandfather](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Grandfather/Grandfather.cs) - Trigger for jump the dialogue with the Grandfather
 
 ### Mother:
-- [Follow](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Mother/Follow.cs) -
+- [Follow](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Mother/Follow.cs) - Trigger for moving the mother when the player finds her
 
 ### Keys:
 - [KeyProperties](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/keys/KeyProperties.cs) - This class contains all key properties as: holes it open, audio source, current hole that opened. 
@@ -102,9 +102,9 @@ Picking  objects will be done by  mouse clicking.
 ### Levels:
 - [OpenGame](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/OpenGame.cs) - Represents the first scene in the game(just show the house from outside).
 - [Level1](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/Level1.cs) - Represents the first scene(level) at KeyHouse, the level1 contains some states that the player may be during the level.
-- [Level2](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/Level2.cs) -
-- [Level3](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/Level3.cs) -
-- [Level4](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/Level4.cs) -
+- [Level2](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/Level2.cs) - Mirror Room scene
+- [Level3](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/Level3.cs) - Represents the second scene at the KeyHouse
+- [Level4](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Levels/Level4.cs) - Cemetery scene
 
 
 ### Menu: (asset)
@@ -113,7 +113,7 @@ Picking  objects will be done by  mouse clicking.
 
 ### Mirror:
 - [BreakMirror](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Mirrors/BreakMirror.cs) - This behavior causes the mirror to break and leave fragments on the floor.
-- [ImportanceMirror](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Mirrors/ImportanceMirror.cs) -
+- [ImportanceMirror](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Mirrors/ImportanceMirror.cs) - Affects the mirror reflection according to the player's location
 
 
 ### Dialogue:
@@ -129,11 +129,11 @@ Picking  objects will be done by  mouse clicking.
 - [DisableButton](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/DisableButton.cs) - Deletes the button when pressed.
 
 ### Chest:
-- [Chest](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Chest.cs) -
+- [Chest](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Chest.cs) - Enables the Chest opening animation with a mouse click
 
 ### Door:
-- [Door](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Door.cs) -
-- [DoorOnTrigger](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/DoorOnTrigger.cs) -
+- [Door](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Door.cs) - Responsible for checking if the player is standing at the door
+- [DoorOnTrigger](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/DoorOnTrigger.cs) - Responsible for the onscreen text at the door
 
 ### Target:
 - [Target](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Target.cs) - Represents the location the enemy will go to when his Health Bar will be in a certain number
