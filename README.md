@@ -140,8 +140,6 @@ Picking  objects will be done by  mouse clicking.
 ### Target:
 - [Target](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Target.cs) - Represents the location the enemy will go to when his Health Bar will be in a certain number
 
-### EnableObject:
-- [enableObject](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/enableObject.cs) 
 
 
 
