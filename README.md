@@ -8,7 +8,9 @@ Created by:
 
 [Netanel Davidov](https://github.com/netanel208)
 
-itch.io: [Locke & keys](https://odeliamos0.itch.io/locke-key)
+itch.io: [Locke & Key](https://odeliamos0.itch.io/locke-key)
+
+Trailer: [Locke & Key]()
 
 ## Background
 The game is based on the series, comics and books "Locke & Key" .
@@ -139,7 +141,7 @@ Picking  objects will be done by  mouse clicking.
 - [Target](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/Target.cs) - Represents the location the enemy will go to when his Health Bar will be in a certain number
 
 ### EnableObject:
-- [enableObject](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/enableObject.cs) -
+- [enableObject](https://github.com/netanel208/Locke-And-Keys-Game-/blob/master/scripts/enableObject.cs) 
 
 
 
