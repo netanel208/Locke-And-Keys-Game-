@@ -10,7 +10,7 @@ Created by:
 
 itch.io: [Locke & Key](https://odeliamos0.itch.io/locke-key)
 
-Trailer: [Locke & Key](https://www.youtube.com/watch?v=8zrZBHp5VkM&feature=youtu.be)
+Trailer: [Locke & Key](https://www.youtube.com/watch?v=N7Eh92RgDPI)
 
 ## Background
 The game is based on the series, comics and books "Locke & Key" .
